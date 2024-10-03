@@ -12,11 +12,11 @@ namespace Tyuiu.MitinNV.Sprint1.Task6.V4.Lib
             {
                 if (item.Contains("нн"))
                 {
-                    result += item;
+                    result += " " + item;
                 }
             }
 
-            return result;
+            return result.Substring(1);
         }
     }
 }

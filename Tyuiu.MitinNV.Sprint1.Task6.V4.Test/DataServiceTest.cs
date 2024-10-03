@@ -9,7 +9,7 @@ namespace Tyuiu.MitinNV.Sprint1.Task6.V4.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            Assert.AreEqual("военнуюутроеннуюупакованную", ds.CheckDoubleN("я пошел сегодня в военную утроенную кафедру, где мне дали упакованную тарелку"));
+            Assert.AreEqual("военную утроенную упакованную", ds.CheckDoubleN("я пошел сегодня в военную утроенную кафедру, где мне дали упакованную тарелку"));
         }
     }
 }
